@@ -1,0 +1,21 @@
+<!ELEMENT batman (personajes, batalla*, pelicula+)>
+<!ELEMENT batalla EMPTY>
+<!ELEMENT pelicula EMPTY>
+<!ELEMENT personajes (personaje)+>
+<!ELEMENT personaje (nombreReal, edad?, (heroe | villano))>
+<!ELEMENT nombreReal (#PCDATA)>
+<!ELEMENT edad (#PCDATA | fechaNacimiento)*>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT heroe EMPTY>
+<!ELEMENT villano EMPTY>
+<!ATTLIST batman losMejoresPersonajes IDREFS #REQUIRED>
+<!ATTLIST personaje nombre (batman | robin | joker | pingüino | Harley) "batman"
+                    colorTraje CDATA #IMPLIED
+                    altura CDATA #REQUIRED
+                    ciudad CDATA #FIXED "Gotham City"
+                    codigo ID #REQUIRED
+                    codigoDeEnemigoPrincipal IDREF #IMPLIED>
+<!ENTITY nolan "Christopher Nolan">
+<!ENTITY % atributoNombre "nombre CDATA #REQUIRED">
+<!ATTLIST batalla %atributoNombre;>
+<!ATTLIST pelicula %atributoNombre;>

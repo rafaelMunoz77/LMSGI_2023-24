@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE batman SYSTEM "batman.dtd">
+<batman losMejoresPersonajes="bat har">
+	<personajes>
+		<personaje nombre="batman" codigo="bat" codigoDeEnemigoPrincipal="jok" colorTraje="Negro" altura="190" ciudad="Gotham City">
+			<nombreReal>Bruce Wayne de &nolan;</nombreReal>
+			<edad>40
+				<fechaNacimiento>3/10/1983</fechaNacimiento>
+			</edad>
+			<heroe/>
+		</personaje>
+		<personaje nombre="Harley" codigo="har" altura="180">
+			<nombreReal>Doctora psicóloga</nombreReal>
+			<edad>32
+				<fechaNacimiento>3/10/1991</fechaNacimiento>
+			</edad>
+			<villano/>
+		</personaje>
+		<personaje nombre="joker" codigo="jok"  codigoDeEnemigoPrincipal="bat" altura="190">
+			<nombreReal>Mafiosillo</nombreReal>
+			<edad>57
+				<fechaNacimiento>3/10/1966</fechaNacimiento>
+			</edad>
+			<villano/>
+		</personaje>
+	</personajes>
+	<batalla nombre="Barcos explosivos"/>
+	<pelicula nombre="El caballero oscuro"/>
+</batman>
