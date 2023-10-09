@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pokemon SYSTEM "pokemon.dtd">
+<pokemon creador="Satoshi Tajiri">La mejor serie
+    <tipo valor="electrico"/>
+    <tipo valor="fuego"/>
+    <personaje nombre="Pikachu" color="amarillo" tipo="electrico"/>
+    <estadio>
+        <tiposAdmitidos tipos="electrico fuego"/>
+        <fechaCreacion>11 de agosto de 2011</fechaCreacion>
+        <torneoJugado>Máster 1000</torneoJugado>
+        <torneoJugado>Máster 10000</torneoJugado>
+        <derruido />
+    </estadio>
+</pokemon>

@@ -1,0 +1,15 @@
+<!ELEMENT pokemon (#PCDATA | tipo | personaje | estadio)*>
+<!ATTLIST pokemon creador CDATA #FIXED "Satoshi Tajiri">
+<!ELEMENT tipo EMPTY>
+<!ATTLIST tipo valor ID #REQUIRED>
+<!ELEMENT personaje EMPTY>
+<!ATTLIST personaje nombre CDATA #REQUIRED
+                    color (rojo | azul | blanco | amarillo) "rojo"
+                    tipo IDREF #IMPLIED>
+<!ELEMENT estadio (tiposAdmitidos, fechaCreacion?, torneoJugado+, (activo | derruido))>
+<!ELEMENT fechaCreacion (#PCDATA)>
+<!ELEMENT torneoJugado (#PCDATA)>
+<!ELEMENT activo EMPTY>
+<!ELEMENT derruido EMPTY>
+<!ELEMENT tiposAdmitidos EMPTY>
+<!ATTLIST tiposAdmitidos tipos IDREFS #REQUIRED>
