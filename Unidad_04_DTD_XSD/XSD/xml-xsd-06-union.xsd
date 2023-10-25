@@ -3,7 +3,7 @@
   <xs:element name="tallaSuperheroe" type="lista-tallas"/>
   
   <xs:simpleType name="lista-tallas">
-    <xs:list itemType="xs:integer"/>
+    <xs:list itemType="talla"/>
   </xs:simpleType>
 
   <xs:simpleType name="talla">
