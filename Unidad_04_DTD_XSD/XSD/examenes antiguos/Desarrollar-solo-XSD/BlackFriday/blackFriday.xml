@@ -3,7 +3,7 @@
 xsi:noNamespaceSchemaLocation="blackFriday.xsd">
     <!-- Pueden existir muchos elementos de tipo "articulo" -->
     <articulo codigo="Canon 33-53">Cámara IP de vigilancia de exteriores
-        <fabricante><canon/></fabricante>
+        <fabricante><canon/></fabricante> <!-- canon es un elemento vacío -->
         <oferta precioHabitual="69" descuento="10%">61.10</oferta>
         <valoraciones>
             <positiva>
