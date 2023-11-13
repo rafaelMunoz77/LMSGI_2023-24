@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
+  <name>Alice</name>
+  <grade>85</grade>
+  <class>Math</class>
+  <class>Math</class> <!-- Error: Elemento duplicado -->
+</student>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio1.xsd">
+  <name>John Doe</name>
+  <age>thirty</age> <!-- Error: Valor no válido -->
+  <email>john@example.com</email>
+</person>

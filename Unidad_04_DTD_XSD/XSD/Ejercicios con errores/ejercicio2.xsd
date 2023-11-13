@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="order">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="product" type="xs:string" />
+        <xs:element name="quantity" type="xs:integer" />
+      </xs:sequence>
+      <xs:attribute name="customer" type="xs:string" /> <!-- Error: Atributo no permitido -->
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

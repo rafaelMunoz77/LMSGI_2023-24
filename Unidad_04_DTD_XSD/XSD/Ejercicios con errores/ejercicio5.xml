@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio5.xsd" id="1001">
+  <name>Widget B</name>
+  <price>25.50</price> <!-- Error: Elemento no permitido -->
+</product>
